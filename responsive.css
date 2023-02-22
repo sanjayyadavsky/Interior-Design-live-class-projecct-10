@@ -1,0 +1,49 @@
+@media screen and (max-width:1296px) {
+    .contact{
+        display: none;
+    }
+    .menu {
+        width: 100%; 
+       
+    }
+}
+@media screen and (max-width:1000px) {
+    .menu{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+    .l-more {
+        display: none;
+    }
+    .upper-part{
+       flex-direction: column;
+    
+    }
+    .upper-part > h1 {
+    width: 100%; 
+      font-size: 25px; 
+    }
+    .extension {
+        left: unset; 
+         bottom:unset;
+         top: 20px;
+    }
+    .bulb {
+        
+        left: unset; 
+        bottom: unset;
+        top: 20px;
+
+    }
+    #line {
+        
+        top: unset; 
+       
+    }
+    #circle {
+        top: -7px;
+        left: 52.3%;
+    }
+}

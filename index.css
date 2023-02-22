@@ -140,6 +140,10 @@ nav{
 
     
 }
+.bars{
+    display: none;
+    color: #fff;
+}
 .bulb{
     height: 135px;
     height: 135px;
